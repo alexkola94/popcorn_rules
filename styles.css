@@ -1,0 +1,293 @@
+html {
+    background: url(assets/images/popcorn-seamless-pattern-with-popcorn-pack-vector-illustration-white_126267-8833.webp) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    padding-top: 10%;
+}
+
+/* Title style */
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #c75407;
+    --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #a70404;
+}
+
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+
+    32% {
+        color: var(--color-1)
+    }
+
+    33% {
+        color: var(--color-2)
+    }
+
+    65% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    99% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+
+}
+
+/* Navbar and sidebar effects */
+.sidebarImg {
+    position: relative;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #990000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFE59D;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #141412;
+
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(165, 11, 11);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #4e4e4c;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+#mySidebar.open {
+    width: 250px;
+}
+
+#main.open {
+    margin-left: 250px;
+    float: left;
+}
+
+/* Trailer videos sizes and style */
+iframe {
+    float: left;
+    margin-right: 30px;
+    padding-bottom: 5rem;
+}
+
+
+/* Posts styles */
+.description {
+    float: inline-end;
+
+}
+
+.postTitle {
+    color: #ffffff;
+    background-color: #990000;
+
+
+}
+
+.postTitle_Scifi {
+    color: #ffffff;
+    background-color: #990000;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.postTitle_drama {
+    color: #ffffff;
+    background-color: #990000;
+    font-family: 'Architects Daughter', cursive;
+
+
+}
+
+.postTitle_float {
+    text-align: end;
+}
+
+.postTitle_action {
+    color: #ffffff;
+    background-color: #990000;
+    font-family: 'Shrikhand', cursive;
+
+}
+
+.postTitle_comedy {
+    color: #ffffff;
+    background-color: #990000;
+    font-family: 'Rancho', cursive;
+
+}
+
+/* Hr line seperating posts */
+.line {
+    border-color: black;
+    border-style: dotted none none;
+    height: 0px;
+    width: 5%;
+    border-width: 5px;
+    margin: 100px auto;
+}
+
+
+
+/* Genre title styles */
+.headerTitle_scifi {
+
+    font-family: 'Orbitron', sans-serif;
+    color: #548CFF;
+    text-align: center;
+    box-shadow: 20px 20px rgba(0, 0, 0, .15);
+    transition: all .4s ease;
+
+}
+
+.headerTitle_scifi:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+    box-shadow: 10px 10px rgba(0, 0, 0, .25);
+}
+
+.headerTitle_drama {
+
+    font-family: 'Architects Daughter', cursive;
+    color: #3D087B;
+    text-align: center;
+    box-shadow: 20px 20px rgba(0, 0, 0, .15);
+    transition: all .4s ease;
+
+}
+
+
+.headerTitle_drama:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+    box-shadow: 10px 10px rgba(0, 0, 0, .25);
+}
+
+.headerTitle_action {
+
+    font-family: 'Shrikhand', cursive;
+    color: #F32424;
+    text-align: center;
+    box-shadow: 20px 20px rgba(0, 0, 0, .15);
+    transition: all .4s ease;
+}
+
+.headerTitle_action:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+    box-shadow: 10px 10px rgba(0, 0, 0, .25);
+}
+
+.headerTitle_comedy {
+
+    font-family: 'Rancho', cursive;
+    color: #FABB51;
+    text-align: center;
+    box-shadow: 20px 20px rgba(0, 0, 0, .15);
+    transition: all .4s ease;
+}
+
+
+.headerTitle_comedy:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+    box-shadow: 10px 10px rgba(0, 0, 0, .25);
+}
+
+.iframe_float_right {
+    float: right;
+}
