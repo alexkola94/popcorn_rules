@@ -215,14 +215,39 @@ iframe {
 
 }
 
-/* Hr line seperating posts */
-.line {
-    border-color: black;
-    border-style: dotted none none;
-    height: 0px;
-    width: 5%;
-    border-width: 5px;
+
+
+.strike {
     margin: 100px auto;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.strike>span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike>span:before,
+.strike>span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: #990000;
+}
+
+.strike>span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike>span:after {
+    left: 100%;
+    margin-left: 15px;
 }
 
 
@@ -290,4 +315,9 @@ iframe {
 
 .iframe_float_right {
     float: right;
+}
+
+footer {
+    background-color: #990000;
+    color: white;
 }
