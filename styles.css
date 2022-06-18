@@ -50,6 +50,10 @@ main {
     }
 }
 
+.brand_img {
+    width: 120;
+    height: 80;
+}
 
 .title {
     font-family: "Montserrat", sans-serif;
@@ -363,7 +367,7 @@ h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     margin: auto;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     position: relative;
     width: clamp(320px, 50vw, 100%);
     color: white;
