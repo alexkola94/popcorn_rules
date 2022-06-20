@@ -51,8 +51,8 @@ main {
 }
 
 .brand_img {
-    width: 120;
-    height: 80;
+    width: 75rem;
+    height: 5rem;
 }
 
 .title {
@@ -86,7 +86,7 @@ main {
 }
 
 .sidebar a {
-    padding: 8px 8px 8px 32px;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
     text-decoration: none;
     font-size: 25px;
     color: #FFE59D;
@@ -102,17 +102,17 @@ main {
 .sidebar .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    right: 1.563rem;
+    font-size: 2.25rem;
+    margin-left: 3.125rem;
 }
 
 .openbtn {
-    font-size: 20px;
+    font-size: 1.25rem;
     cursor: pointer;
     background-color: rgb(165, 11, 11);
     color: white;
-    padding: 10px 15px;
+    padding: 0.625rem 0.938rem;
     border: none;
 }
 
@@ -122,33 +122,33 @@ main {
 
 #main {
     transition: margin-left .5s;
-    padding: 16px;
+    padding: 1rem;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 28.125rem) {
     .sidebar {
-        padding-top: 15px;
+        padding-top: 0.938rem;
     }
 
     .sidebar a {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 }
 
 #mySidebar.open {
-    width: 250px;
+    width: 15.625rem;
 }
 
 #main.open {
-    margin-left: 250px;
+    margin-left: 15.625rem;
     float: left;
 }
 
 /* Trailer videos sizes and style */
 iframe {
     float: left;
-    margin-right: 30px;
+    margin-right: 1.875rem;
     padding-bottom: 5rem;
 }
 
@@ -202,7 +202,7 @@ iframe {
 
 
 .strike {
-    margin: 100px auto;
+    margin: 6.25rem auto;
     display: block;
     text-align: center;
     overflow: hidden;
@@ -219,19 +219,19 @@ iframe {
     content: "";
     position: absolute;
     top: 50%;
-    width: 9999px;
-    height: 1px;
+    width: 624.938rem;
+    height: 0.063rem;
     background: #990000;
 }
 
 .strike>span:before {
     right: 100%;
-    margin-right: 15px;
+    margin-right: 0.938rem;
 }
 
 .strike>span:after {
     left: 100%;
-    margin-left: 15px;
+    margin-left: 0.938rem;
 }
 
 
@@ -242,14 +242,14 @@ iframe {
     font-family: 'Orbitron', sans-serif;
     color: #548CFF;
     text-align: center;
-    box-shadow: 20px 20px rgba(0, 0, 0, .15);
+    box-shadow: 1.25rem 1.25rem rgba(0, 0, 0, .15);
     transition: all .4s ease;
 
 }
 
 .headerTitle_scifi:hover {
     border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
-    box-shadow: 10px 10px rgba(0, 0, 0, .25);
+    box-shadow: 0.625rem 0.625rem rgba(0, 0, 0, .25);
 }
 
 .headerTitle_drama {
@@ -257,7 +257,7 @@ iframe {
     font-family: 'Architects Daughter', cursive;
     color: #3D087B;
     text-align: center;
-    box-shadow: 20px 20px rgba(0, 0, 0, .15);
+    box-shadow: 1.25rem 1.25rem rgba(0, 0, 0, .15);
     transition: all .4s ease;
 
 }
@@ -265,7 +265,7 @@ iframe {
 
 .headerTitle_drama:hover {
     border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
-    box-shadow: 10px 10px rgba(0, 0, 0, .25);
+    box-shadow: 0.625rem 0.625rem rgba(0, 0, 0, .25);
 }
 
 .headerTitle_action {
@@ -273,13 +273,13 @@ iframe {
     font-family: 'Shrikhand', cursive;
     color: #F32424;
     text-align: center;
-    box-shadow: 20px 20px rgba(0, 0, 0, .15);
+    box-shadow: 1.25rem 1.25rem rgba(0, 0, 0, .15);
     transition: all .4s ease;
 }
 
 .headerTitle_action:hover {
     border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
-    box-shadow: 10px 10px rgba(0, 0, 0, .25);
+    box-shadow: 0.625rem 0.625rem rgba(0, 0, 0, .25);
 }
 
 .headerTitle_comedy {
@@ -287,14 +287,14 @@ iframe {
     font-family: 'Rancho', cursive;
     color: #FABB51;
     text-align: center;
-    box-shadow: 20px 20px rgba(0, 0, 0, .15);
+    box-shadow: 1.25rem 1.25rem rgba(0, 0, 0, .15);
     transition: all .4s ease;
 }
 
 
 .headerTitle_comedy:hover {
     border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
-    box-shadow: 10px 10px rgba(0, 0, 0, .25);
+    box-shadow: 0.625rem 0.625rem rgba(0, 0, 0, .25);
 }
 
 .iframe_float_right {
@@ -365,7 +365,7 @@ h1 {
 
 .nav2 {
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: auto;
     /* margin-top: 40px; */
     position: relative;
@@ -375,25 +375,25 @@ h1 {
 
 .nav2 h2 {
     font-size: 1.5rem;
-    border-radius: 2px;
+    border-radius: 0.125rem;
     position: relative;
     background: rgb(194, 37, 10);
-    height: 40px;
+    height: 2.5rem;
     text-transform: uppercase;
     margin-bottom: 0;
     color: inherit;
-    font-weight: 200;
+    font-weight: 12.5rem;
     display: flex;
     flex: 1;
     justify-content: center;
     align-items: center;
-    box-shadow: 4px 4px 20px -2px rgba(0, 0, 0, 0.35);
+    box-shadow: 0.25rem 0.25rem 1.25rem -0.125rem rgba(0, 0, 0, 0.35);
     transition: all 0.4s;
 }
 
 .nav2:hover h2 {
     transform: translateY(-2px);
-    box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.35);
+    box-shadow: 0.125rem 0.125rem 0.313rem -0.063rem rgba(0, 0, 0, 0.35);
     transition: all 0.4s;
 }
 
@@ -405,7 +405,7 @@ h1 {
     z-index: 1;
     opacity: 0;
     cursor: pointer;
-    height: 40px;
+    height: 2.5rem;
 }
 
 .dropdown h2::before {
@@ -458,7 +458,7 @@ h1 {
 }
 
 .nav2 ul li {
-    border-radius: 2px;
+    border-radius: 0.125rem;
     position: relative;
     display: inline-block;
     line-height: 1.5;
