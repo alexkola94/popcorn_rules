@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top">
+    <nav class="navbar">
         <div class="container-fluid">
             <div id="mySidebar" class="sidebar">
                 <a href="javascript:void(0)" class="closebtn text-white" onclick="OpenOrClose()">×</a>
@@ -62,6 +62,9 @@
 
 
     </nav>
+    <button class="title" onclick="topFunction()" id="myBtn" title="Go to top">
+        Back to Top
+    </button>
 
 
     <main>
@@ -70,7 +73,9 @@
 
 
         <div class="container">
-            <h1 class="postTitle_comedy">Friends</h1>
+            <div>
+                <h1 class="postTitle_comedy">Friends</h1>
+            </div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/IEEbUzffzrk"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -105,7 +110,9 @@
 
 
         <div class="container">
-            <h1 class="postTitle_comedy postTitle_float">The Office</h1>
+            <div>
+                <h1 class="postTitle_comedy text-end">The Office</h1>
+            </div>
             <iframe class="iframe_float_right" width="560" height="315" src="https://www.youtube.com/embed/LHOtME2DL4g"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -138,7 +145,9 @@
         </div>
 
         <div class="container">
-            <h1 class="postTitle_comedy">The Big Bang Theory</h1>
+            <div>
+                <h1 class="postTitle_comedy">The Big Bang Theory</h1>
+            </div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/WBb3fojgW0Q"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -183,17 +192,7 @@
             <span>Popcorn Rules &copy; </span>
         </div>
     </footer>
-    <!-- <footer class="text-center text-white">
-        <!-- Grid container -->
 
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <!-- <div class="text-center p-3">
-            <p> © 2022 Copyright: &gt; <i>Popcorn Rules</i> &gt;</p>
-        </div>
-        <!-- Copyright -->
-    <!-- </footer> -->
     <script src="script.js"></script>
 </body>
 

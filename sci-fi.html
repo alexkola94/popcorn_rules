@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top">
+    <nav class="navbar">
         <div class="container-fluid">
             <div id="mySidebar" class="sidebar">
                 <a href="javascript:void(0)" class="closebtn text-white" onclick="OpenOrClose()">×</a>
@@ -65,13 +65,18 @@
     </nav>
 
 
+    <button class="title" onclick="topFunction()" id="myBtn" title="Go to top">
+        Back to Top
+    </button>
 
     <main>
 
 
 
         <div class="container ">
-            <h1 class="postTitle_Scifi">Stranger Things</h1>
+            <div>
+                <h1 class="postTitle_Scifi">Stranger Things</h1>
+            </div>
             <iframe width="560" height="300" src="https://www.youtube.com/embed/BKLI6zAuhiA"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -103,7 +108,10 @@
 
 
         <div class="container ">
-            <h1 class="postTitle_Scifi postTitle_float">Westworld</h1>
+            <div class="text-end">
+                <h1 class="postTitle_Scifi">Westworld</h1>
+            </div>
+
             <iframe class="iframe_float_right" width="560" height="315" src="https://www.youtube.com/embed/9BqKiZhEFFw"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -138,7 +146,9 @@
 
 
         <div class="container ">
-            <h1 class="postTitle_Scifi">The X-Files</h1>
+            <div>
+                <h1 class="postTitle_Scifi">The X-Files</h1>
+            </div>
             <iframe width="560" height="340" src="https://www.youtube.com/embed/KKziOmsJxzE"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -181,17 +191,7 @@
         </div>
     </footer>
 
-    <!-- <footer class="text-center text-white">
-        <!-- Grid container -->
 
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <!-- <div class="text-center p-3">
-            <p> © 2022 Copyright: &gt; <i>Popcorn Rules</i> &gt;</p>
-        </div>
-        <!-- Copyright -->
-    <!-- </footer> -->
     <script src="script.js"></script>
 </body>
 
