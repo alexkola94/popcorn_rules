@@ -148,8 +148,12 @@ main {
 /* Trailer videos sizes and style */
 iframe {
     float: left;
+    width: auto;
+    height: 18.75rem;
+
+
     margin-right: 1.875rem;
-    padding-bottom: 5rem;
+    /* padding-bottom: 4rem; */
 }
 
 
